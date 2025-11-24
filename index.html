@@ -1,11 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portifólio do Enzo</title>
+    <title>Meu Portfólio Profissional</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-hello world    
+
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Seu Nome</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre" class="hero section">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Olá, eu sou **Seu Nome** 👋</h2>
+                    <p class="subtitle">Desenvolvedor Front-end com foco em HTML e CSS.</p>
+                    <p>Descrição breve e impactante sobre sua carreira e o que você faz. Mencione sua paixão por criar interfaces limpas e responsivas.</p>
+                    <a href="#projetos" class="button primary">Ver Projetos</a>
+                </div>
+                <img src="placeholder-profile.jpg" alt="Foto de Perfil" class="profile-img">
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="habilidades" class="skills section">
+            <div class="container">
+                <h3>Minhas Habilidades</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">HTML5</div>
+                    <div class="skill-card">CSS3</div>
+                    <div class="skill-card">Design Responsivo</div>
+                    <div class="skill-card">Git & GitHub</div>
+                    <div class="skill-card">UX/UI Básico</div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="projetos" class="projects section">
+            <div class="container">
+                <h3>Meus Projetos</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h4>Projeto 1: Título do Projeto</h4>
+                        <p>Descrição do que o projeto faz e quais tecnologias usou (HTML, CSS).</p>
+                        <a href="#" target="_blank" class="button secondary">Ver Demo</a>
+                        <a href="#" target="_blank" class="button secondary">Código</a>
+                    </div>
+                    <div class="project-card">
+                        <h4>Projeto 2: Outro Site</h4>
+                        <p>Descrição do segundo projeto, focando no desafio resolvido com HTML/CSS.</p>
+                        <a href="#" target="_blank" class="button secondary">Ver Demo</a>
+                        <a href="#" target="_blank" class="button secondary">Código</a>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="contato" class="contact section">
+            <div class="container">
+                <h3>Entre em Contato</h3>
+                <p>Estou disponível para novos projetos e oportunidades. Conecte-se comigo!</p>
+                <ul class="contact-list">
+                    <li>📧 Email: <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></li>
+                    <li>🔗 LinkedIn: <a href="#" target="_blank">linkedin.com/in/seuperfil</a></li>
+                    <li>🔗 GitHub: <a href="#" target="_blank">github.com/seuperfil</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Seu Nome. Desenvolvido com HTML & CSS.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
